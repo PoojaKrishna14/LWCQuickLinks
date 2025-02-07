@@ -7,6 +7,7 @@
 	The code includes error handling to catch and handle exceptions that may occur during the data retrieval process.
 */
 
+
 public without sharing class orlRetailStoreTableController {
     
     @AuraEnabled  // makes the method accessible to Lightning components via Aura framework.

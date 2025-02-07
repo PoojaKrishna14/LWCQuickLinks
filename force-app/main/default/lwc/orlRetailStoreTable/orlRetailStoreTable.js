@@ -28,6 +28,7 @@ export default class OrlRetailStoreTable extends NavigationMixin(LightningElemen
     @track variable = false; // A boolean variable, the purpose of this variable is to handle the displaying of data in datatable on clearing of search input field
 
 // An array defining the columns for the data table.    
+
     columns = [
         { label: 'Sl No', fieldName: 'index', type: 'text', sortable: false, initialWidth: 80 },
         {label: 'Name', fieldName: 'rName', type: 'text', sortable: true },
